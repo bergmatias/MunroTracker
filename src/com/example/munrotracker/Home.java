@@ -1,5 +1,8 @@
 package com.example.munrotracker;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Locale;
 
@@ -31,7 +34,7 @@ public class Home extends FragmentActivity {
      * The {@link ViewPager} that will host the section contents.
      */
     ViewPager mViewPager;
-    ArrayList<String> munroes;
+    ArrayList<Munro> munroes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -98,8 +101,8 @@ public class Home extends FragmentActivity {
 
         @Override
         public int getCount() {
-            // Show 3 total pages.
-            return 3;
+            // Show 4 total pages.
+            return 4;
         }
 
         @Override
@@ -138,7 +141,7 @@ public class Home extends FragmentActivity {
                 Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_home_dummy, container, false);
             TextView dummyTextView = (TextView) rootView.findViewById(R.id.section_label);
-            dummyTextView.setText(Integer.toString(getArguments().getInt(ARG_SECTION_NUMBER)));
+            dummyTextView.setText("Hello World!");
             return rootView;
         }
     }

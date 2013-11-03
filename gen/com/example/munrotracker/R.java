@@ -31,19 +31,10 @@ public final class R {
     }
     public static final class layout {
         public static final int activity_home=0x7f030000;
-        public static final int activity_info=0x7f030001;
-        public static final int activity_list=0x7f030002;
-        public static final int activity_map=0x7f030003;
-        public static final int fragment_home_dummy=0x7f030004;
-        public static final int fragment_info_dummy=0x7f030005;
-        public static final int fragment_list_dummy=0x7f030006;
-        public static final int fragment_map_dummy=0x7f030007;
+        public static final int fragment_home_dummy=0x7f030001;
     }
     public static final class menu {
         public static final int home=0x7f070000;
-        public static final int info=0x7f070001;
-        public static final int list=0x7f070002;
-        public static final int map=0x7f070003;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;

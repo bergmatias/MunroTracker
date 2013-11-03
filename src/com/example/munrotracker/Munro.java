@@ -1,4 +1,5 @@
 package com.example.munrotracker;
+
 public class Munro {
 	public String name;
 	public String region;
@@ -11,7 +12,8 @@ public class Munro {
 	public String geographurl;
 	public String lat;
 	public String lon;
-	public Munro(String input){
+
+	public Munro(String input) {
 		String[] bits = input.split(",");
 		int i = 0;
 		name = bits[i++];
@@ -25,5 +27,6 @@ public class Munro {
 		geographurl = bits[i++];
 		lat = bits[i++];
 		lon = bits[i++];
+
 	}
 }
