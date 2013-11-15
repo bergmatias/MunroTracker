@@ -46,6 +46,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.munrotracker.Home" />
         </activity>
+    
+    	<meta-data
+		    android:name="com.google.android.maps.v2.API_KEY"
+		    android:value="AIzaSyAuj53u7JO7cIZIKfHdmLcK1ZLkpfAZrzk"/>
     </application>
 
 </manifest>
